@@ -15,6 +15,7 @@ Work Division
 - Audio recompose
 
 ## Library we used
+
 ### JAVE2
 We use `JAVE2`, Java Audio Video Encoder 2, for our project. `JAVE2` is [open-sourced on GitHub](https://github.com/a-schild/jave2).  
 This library is actually a `ffmpeg` wrapper for Java. Both a simple way and an advanced way to manipulate `ffmpeg` is provided by `JAVE2`, which we will demonstrate in later paragraphs.
@@ -25,6 +26,7 @@ FFmpeg is a free and open-source software project for handling video, audio. Its
 
 ## Integrate with project
 To use `JAVE2` in our project, it provides 2 approaches being `Maven` and `Gradle` respectively. In our case, we decide to use `Maven`. `Maven` is an automation building system for Java applications, which is backed by Apache Foundation. `Maven` helps solving dependency problems and managing the directory structure. `Eclipse` IDE comes with `Maven` on installation.
+
 ### Create a Maven Project
 ![This is an image](https://i.imgur.com/feXfufl.png)  
 To create a Maven project in Eclipse, we use File->New->Projects
@@ -40,3 +42,9 @@ Here just go default.
 
 ![This is an image](https://i.imgur.com/wc69PnB.png)  
 Specifying the project id is required. The format resembles a reversed domain name.
+
+### Add `JAVE2` dependency
+Our newly created Maven project comes with a special file `pom.xml`. This is how `Maven` understands the dependency, be sure this file stays safe.
+
+Follow the official guide provided by `JAVE2`, we need to add these information into the `pom.xml`.
+
