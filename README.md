@@ -24,8 +24,7 @@ This library is actually a `ffmpeg` wrapper for Java. Both a simple way and an a
 FFmpeg is a free and open-source software project for handling video, audio. Its core is the FFmpeg program itself, designed for command-line-based processing of video and audio files. It is widely used for **format transcoding**, **basic editing**, **video scaling**, **video post-production effects** and **standards compliance**.
 
 ## Integrate with project
-To use `JAVE2` in our project, it provides 2 approaches being `Maven` and `Gradle` respectively.  
-In our case, we decide to use `Maven`. `Maven` is an automation building system for Java applications, which is backed by Apache Foundation. `Maven` helps solving dependency problems and managing the directory structure. `Eclipse` IDE comes with `Maven` on installation.
+To use `JAVE2` in our project, it provides 2 approaches being `Maven` and `Gradle` respectively. In our case, we decide to use `Maven`. `Maven` is an automation building system for Java applications, which is backed by Apache Foundation. `Maven` helps solving dependency problems and managing the directory structure. `Eclipse` IDE comes with `Maven` on installation.
 ### Create a Maven Project
 ![](https://i.imgur.com/feXfufl.png)  
 To create a Maven project in Eclipse, we use File->New->Projects
