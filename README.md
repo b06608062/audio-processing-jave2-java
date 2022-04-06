@@ -47,4 +47,24 @@ Specifying the project id is required. The format resembles a reversed domain na
 Our newly created Maven project comes with a special file `pom.xml`. This is how `Maven` understands the dependency, be sure this file stays safe.
 
 Follow the official guide provided by `JAVE2`, we need to add these information into the `pom.xml`.
-
+```xml=
+<dependencies>
+<!--     Approach #1: All dependency included -->
+    <dependency>    
+        <groupId>ws.schild</groupId>
+        <artifactId>jave-all-deps</artifactId>
+        <version>3.1.1</version>
+    </dependency>
+<!--     Approach #2: Core + Target platform package -->
+    <dependency>
+        <groupId>ws.schild</groupId>
+        <artifactId>jave-core</artifactId>
+        <version>3.1.1</version>
+    </dependency>
+    <dependency>
+        <groupId>ws.schild</groupId>
+        <artifactId>jave-nativebin-win64</artifactId>
+        <version>3.1.1</version>
+    </dependency>
+</dependencies>
+```
