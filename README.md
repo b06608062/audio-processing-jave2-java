@@ -47,7 +47,7 @@ Specifying the project id is required. The format resembles a reversed domain na
 Our newly created Maven project comes with a special file `pom.xml`. This is how `Maven` understands the dependency, be sure this file stays safe.
 
 Follow the official guide provided by `JAVE2`, we need to add these information into the `pom.xml`.
-```xml=
+```xml
 <dependencies>
 <!--     Approach #1: All dependency included -->
     <dependency>    
