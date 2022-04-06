@@ -26,17 +26,17 @@ FFmpeg is a free and open-source software project for handling video, audio. Its
 ## Integrate with project
 To use `JAVE2` in our project, it provides 2 approaches being `Maven` and `Gradle` respectively. In our case, we decide to use `Maven`. `Maven` is an automation building system for Java applications, which is backed by Apache Foundation. `Maven` helps solving dependency problems and managing the directory structure. `Eclipse` IDE comes with `Maven` on installation.
 ### Create a Maven Project
-![](https://i.imgur.com/feXfufl.png)  
+![This is an image](https://i.imgur.com/feXfufl.png)  
 To create a Maven project in Eclipse, we use File->New->Projects
 
-![](https://i.imgur.com/zAyuJHN.png)   
+![This is an image](https://i.imgur.com/zAyuJHN.png)   
 Then we select Maven Project.
 
-![](https://i.imgur.com/TLBMScQ.png)  
+![This is an image](https://i.imgur.com/TLBMScQ.png)  
 Here just go default.
 
-![](https://i.imgur.com/2UI3wAS.png)  
+![This is an image](https://i.imgur.com/2UI3wAS.png)  
 `Maven` uses Archetype to manage the directory structure of project, just like the blueprint for construction. Here we uses `maven-archetype-quickstart` in order to create a simple Maven Project with the minimal necessary files.
 
-![](https://i.imgur.com/wc69PnB.png)  
+![This is an image](https://i.imgur.com/wc69PnB.png)  
 Specifying the project id is required. The format resembles a reversed domain name.
