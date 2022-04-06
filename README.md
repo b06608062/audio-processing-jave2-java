@@ -37,8 +37,8 @@ Then we select Maven Project.
 ![](https://i.imgur.com/TLBMScQ.png)  
 Here just go default.
 
-![](https://i.imgur.com/2UI3wAS.png =570x)  
+![](https://i.imgur.com/2UI3wAS.png)  
 `Maven` uses Archetype to manage the directory structure of project, just like the blueprint for construction. Here we uses `maven-archetype-quickstart` in order to create a simple Maven Project with the minimal necessary files.
 
-![](https://i.imgur.com/wc69PnB.png =600x)  
+![](https://i.imgur.com/wc69PnB.png)  
 Specifying the project id is required. The format resembles a reversed domain name.
