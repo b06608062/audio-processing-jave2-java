@@ -1,5 +1,6 @@
 # Interenet Programming Final Report
-Topic: **Audio Processing with Java**  
+
+## Audio processing with Java
 Team 13  
 Team Members: 40947021S 謝皓青, 40947006S 郭浩雲, NTU_B06608062 游竣量  
 
