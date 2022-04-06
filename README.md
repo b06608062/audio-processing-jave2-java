@@ -21,8 +21,7 @@ This library is actually a `ffmpeg` wrapper for Java. Both a simple way and an a
 
 ### ffmpeg
 ![This is an image](https://i.imgur.com/hemyJFy.png "FFmpeg logo")  
-FFmpeg is a free and open-source software project for handling video, audio. Its core is the FFmpeg program itself, designed for command-line-based processing of video and audio files.  
-It is widely used for **format transcoding**, **basic editing**, **video scaling**, **video post-production effects** and **standards compliance**.
+FFmpeg is a free and open-source software project for handling video, audio. Its core is the FFmpeg program itself, designed for command-line-based processing of video and audio files. It is widely used for **format transcoding**, **basic editing**, **video scaling**, **video post-production effects** and **standards compliance**.
 
 ## Integrate with project
 To use `JAVE2` in our project, it provides 2 approaches being `Maven` and `Gradle` respectively.  
