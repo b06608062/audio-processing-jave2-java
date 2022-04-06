@@ -43,7 +43,7 @@ Here just go default.
 ![This is an image](https://i.imgur.com/wc69PnB.png)  
 Specifying the project id is required. The format resembles a reversed domain name.
 
-### Add `JAVE2` dependency(You can refer to [Link](https://github.com/a-schild/jave2))
+### Add [JAVE2](https://github.com/a-schild/jave2) dependency
 Our newly created Maven project comes with a special file `pom.xml`. This is how `Maven` understands the dependency, be sure this file stays safe.
 
 Follow the official guide provided by `JAVE2`, we need to add these information into the `pom.xml`.
