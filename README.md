@@ -80,3 +80,5 @@ Moreover we have to solve `slf4j` dependency.
     </dependency>
 </dependencies>
 ```
+
+After finishing the configuration of `pom.xml`, `Maven` should be downloading packages from the central repository and handling the rest for us.
