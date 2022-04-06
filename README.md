@@ -68,3 +68,15 @@ Follow the official guide provided by `JAVE2`, we need to add these information 
     </dependency>
 </dependencies>
 ```
+
+Moreover we have to solve `slf4j` dependency.
+```xml
+<dependencies>
+<!-- handling logging -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>1.7.25</version>
+    </dependency>
+</dependencies>
+```
