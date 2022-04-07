@@ -114,6 +114,6 @@ The concept of sampling frequency resembles to that. When we sample the audio mo
 
 ### Channels
 
-![](https://cdn.pianodreamers.com/wp-content/uploads/2020/01/stereo-vs-mono-illustration.png)
+![This is an image](https://cdn.pianodreamers.com/wp-content/uploads/2020/01/stereo-vs-mono-illustration.png)
 
 We may know the term "stereo sound" can bring us a more realistic listening experience. That's because both the left and right channels contains different sound signal, so we may feel the sound is from different directions. When an audio file only have single signal track, we call it "mono channel".
