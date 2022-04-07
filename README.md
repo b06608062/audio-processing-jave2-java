@@ -30,12 +30,16 @@ To use `JAVE2` in our project, it provides 2 approaches being `Maven` and `Gradl
 ### Create a Maven Project
 ![This is an image](https://i.imgur.com/feXfufl.png)  
 To create a Maven project in Eclipse, we use File->New->Projects
+
 ![This is an image](https://i.imgur.com/zAyuJHN.png)  
 Then we select Maven Project.
+
 ![This is an image](https://i.imgur.com/TLBMScQ.png)  
 Here just go default.
+
 ![This is an image](https://i.imgur.com/2UI3wAS.png)  
 `Maven` uses Archetype to manage the directory structure of project, just like the blueprint for construction. Here we uses `maven-archetype-quickstart` in order to create a simple Maven Project with the minimal necessary files.
+
 ![This is an image](https://i.imgur.com/wc69PnB.png)  
 Specifying the project id is required. The format resembles a reversed domain name.
 
