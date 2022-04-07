@@ -98,7 +98,7 @@ We will specify the codec attributes in order to convert the file, so we should 
 | ---- |:------------------------:|:------------------:|
 | Term |         位元速率          |        码率         |
 
-*Sampling Rate $times bit depth $times Channels = Bitrate*
+*Sampling Rat* * *bit depth* * *Channels* = *Bitrate*
 
 Bitrate is important for describing how many bits are used to store the data in a single second. For some audio enthusiasts, they are eager to get the music file that have higher bitrates because they believe that it's less compressed and more detailed. However bitrate doesn't absolutely guarantee sound quality because an audio file with high bitrate can be made from the source file with a lower one. What does it mean? In a simple word, it can be padded by useless data. An 8-bit integer can be padded with zeros to a 32-bit one but the actual data doesn't change, right?
 
