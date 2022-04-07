@@ -123,3 +123,14 @@ import ws.schild.jave.encode.AudioAttributes;
 import ws.schild.jave.encode.EncodingAttributes;
 import java.io.File;
 ```
+
+Now we can use the classes provided by `JAVE2` to use `ffmpeg` easily.
+
+#### Set Audio Attributes
+```java
+AudioAttributes audio = new AudioAttributes();
+audio.setCodec("libmp3lame");  //set Codec
+audio.setBitRate(128000);
+audio.setChannels(2);
+audio.setSamplingRate(44100);
+```
