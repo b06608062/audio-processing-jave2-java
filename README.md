@@ -9,7 +9,7 @@ Work Division
 - Report: 郭浩雲 65%, 謝皓青 35%
 
 ## Goals
-- Format convert
+- Audio format convert
 - Get information and metadata of audio file
 - Audio trimming
 - Audio recompose
