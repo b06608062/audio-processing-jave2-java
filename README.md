@@ -29,20 +29,16 @@ FFmpeg is a free and open-source software project for handling video, audio. Its
 To use `JAVE2` in our project, it provides 2 approaches being `Maven` and `Gradle` respectively. In our case, we decide to use `Maven`. `Maven` is an automation building system for Java applications, which is backed by Apache Foundation. `Maven` helps solving dependency problems and managing the directory structure. `Eclipse` IDE comes with `Maven` on installation.
 
 ### Create a Maven Project
-![This is an image](https://i.imgur.com/feXfufl.png)  
-To create a Maven project in Eclipse, we use File->New->Projects
-
-![This is an image](https://i.imgur.com/zAyuJHN.png)   
-Then we select Maven Project.
-
+1.To create a Maven project in Eclipse, we use File->New->Projects
+![This is an image](https://i.imgur.com/feXfufl.png)
+2.Then we select Maven Project.
+![This is an image](https://i.imgur.com/zAyuJHN.png)
+3.Here just go default.
 ![This is an image](https://i.imgur.com/TLBMScQ.png)  
-Here just go default.
-
-![This is an image](https://i.imgur.com/2UI3wAS.png)  
-`Maven` uses Archetype to manage the directory structure of project, just like the blueprint for construction. Here we uses `maven-archetype-quickstart` in order to create a simple Maven Project with the minimal necessary files.
-
-![This is an image](https://i.imgur.com/wc69PnB.png)  
-Specifying the project id is required. The format resembles a reversed domain name.
+4.`Maven` uses Archetype to manage the directory structure of project, just like the blueprint for construction. Here we uses `maven-archetype-quickstart` in order to create a simple Maven Project with the minimal necessary files.
+![This is an image](https://i.imgur.com/2UI3wAS.png)
+5.Specifying the project id is required. The format resembles a reversed domain name.
+![This is an image](https://i.imgur.com/wc69PnB.png)
 
 ### Add [JAVE2](https://github.com/a-schild/jave2) dependency
 Our newly created Maven project comes with a special file `pom.xml`. This is how `Maven` understands the dependency, be sure this file stays safe.
