@@ -87,6 +87,7 @@ After finishing the configuration of `pom.xml`, `Maven` should be downloading pa
 **Source File:**
 **`/src/main/java/org/ntnu/MP3Editor/FormatConverter.java`**
 
+**Task:**
 Convert a `.wav` file to `.mp3`.
 
 We will specify the codec attributes in order to convert the file, so we should understand some basic concepts first.
