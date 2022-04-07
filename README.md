@@ -98,7 +98,7 @@ We will specify the codec attributes in order to convert the file, so we should 
 | ---- |:------------------------:|:------------------:|
 | Term |         位元速率          |        码率         |
 
-*Sampling Rat* * *bit depth* * *Channels* = *Bitrate*
+*Sampling Rate* * *bit depth* * *Channels* = *Bitrate*
 
 Bitrate is important for describing how many bits are used to store the data in a single second. For some audio enthusiasts, they are eager to get the music file that have higher bitrates because they believe that it's less compressed and more detailed. However bitrate doesn't absolutely guarantee sound quality because an audio file with high bitrate can be made from the source file with a lower one. What does it mean? In a simple word, it can be padded by useless data. An 8-bit integer can be padded with zeros to a 32-bit one but the actual data doesn't change, right?
 
@@ -106,8 +106,8 @@ There are some common bitrates: 128 Kbps,160 Kbps, 320 Kbps, etc.
 
 ### Sampling Frequency
 
-![](https://math.libretexts.org/@api/deki/files/4515/clipboard_eeb1d3a4750bf5c657b34fad8ecf5a98d.png =600x)
-![](https://tomsrayaudiomastering.com/wp-content/uploads/2017/03/bit-depth-OPT.jpg)
+![This is an image](https://math.libretexts.org/@api/deki/files/4515/clipboard_eeb1d3a4750bf5c657b34fad8ecf5a98d.png)
+![This is an image](https://tomsrayaudiomastering.com/wp-content/uploads/2017/03/bit-depth-OPT.jpg)
 
 Still remember the Riemann Sum in Calculus? The more partition we have, the more accurate approximated area we get.
 The concept of sampling frequency resembles to that. When we sample the audio more frequently, the result is closer to the real information.
