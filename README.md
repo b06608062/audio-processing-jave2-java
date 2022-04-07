@@ -126,11 +126,25 @@ import java.io.File;
 
 Now we can use the classes provided by `JAVE2` to use `ffmpeg` easily.
 
-#### Set Audio Attributes
+#### Set audio attributes
 ```java
 AudioAttributes audio = new AudioAttributes();
-audio.setCodec("libmp3lame");  //set Codec
+audio.setCodec("libmp3lame");  // set Codec
 audio.setBitRate(128000);
 audio.setChannels(2);
 audio.setSamplingRate(44100);
+```
+
+#### Set encoder attributes
+```java
+EncodingAttributes attrs = new EncodingAttributes();
+attrs.setOutputFormat("mp3");
+attrs.setAudioAttributes(audio);
+```
+
+#### Encode
+With the help of `Encoder` class, we can now plug in the attributes specified above, source file, and output file. Then `JAVE2` will feed this options into `ffmpeg`, which saves us from making hands dirty.
+```java
+Encoder encoder = new Encoder();
+encoder.encode(new MultimediaObject(source), target, attrs);
 ```
