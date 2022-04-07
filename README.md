@@ -109,8 +109,7 @@ There are some common bitrates: 128 Kbps,160 Kbps, 320 Kbps, etc.
 ![This is an image](https://math.libretexts.org/@api/deki/files/4515/clipboard_eeb1d3a4750bf5c657b34fad8ecf5a98d.png)
 ![This is an image](https://tomsrayaudiomastering.com/wp-content/uploads/2017/03/bit-depth-OPT.jpg)
 
-Still remember the Riemann Sum in Calculus? The more partition we have, the more accurate approximated area we get.  
-The concept of sampling frequency resembles to that. When we sample the audio more frequently, the result is closer to the real information.
+Still remember the Riemann Sum in Calculus? The more partition we have, the more accurate approximated area we get. The concept of sampling frequency resembles to that. When we sample the audio more frequently, the result is closer to the real information.
 
 ### Channels
 
