@@ -9,7 +9,7 @@ Work Division
 - Report: 郭浩雲 65%, 謝皓青 35%
 
 ## Goals
-- Audio Converter
+- Audio converter
 - Get information and metadata of audio file
 - Audio trimming
 - Audio recompose
