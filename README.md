@@ -17,7 +17,8 @@ Work Division
 ## Library we used
 
 ### JAVE2
-We use `JAVE2`, Java Audio Video Encoder 2, for our project. `JAVE2` is [open-sourced on GitHub](https://github.com/a-schild/jave2).  
+We use `JAVE2`, Java Audio Video Encoder 2, for our project. `JAVE2` is [open-sourced on GitHub](https://github.com/a-schild/jave2).
+
 This library is actually a `ffmpeg` wrapper for Java. Both a simple way and an advanced way to manipulate `ffmpeg` is provided by `JAVE2`, which we will demonstrate in later paragraphs.
 
 ### ffmpeg
